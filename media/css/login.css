@@ -1,0 +1,164 @@
+/* 
+    Document   : login
+    Created on : 14-11-2013, 06:37:02 PM
+    Author     : z1174697
+    Description:
+        Purpose of the stylesheet follows.
+*/
+body{
+    font-family: Arial,Helvetica,sans-serif;
+}
+.panel h2.important {
+    background-color: #1D9CDB;
+    background-image: -moz-linear-gradient(center bottom , #1677B0 0%, #20AFF0 100%);
+    color: #FFFFFF;
+    padding: 10px 20px 15px;
+}
+.panel h2 {
+    border-bottom: 1px solid #CCCCCC;
+    border-radius: 6px 6px 0 0;
+    height: 14px;
+    margin: 0;
+}
+.important {
+    font-weight: bold;
+}
+h2 {
+    font-size: 16px;
+    line-height: 1.4;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial,Helvetica,sans-serif;
+    text-rendering: optimizelegibility;
+}
+.signin-wrapper {
+    -moz-box-sizing: border-box;
+    height: 100%;
+    margin: 0 auto;
+    padding: 100px 0;
+    width: 320px;
+}
+form {
+    margin: 0 0 18px;
+}
+form {
+    margin: 0 0 18px;
+}
+.signin-wrapper .panel .panel-header, .signin-wrapper .panel .panel-content {
+    padding: 15px 15px 0;
+}
+.panel .panel-content {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 1px solid #CCCCCC;
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+.signin-wrapper .panel .corner-bottom, .signin-wrapper .panel .tree .tree-category-content, .tree .signin-wrapper .panel .tree-category-content {
+    padding-bottom: 15px;
+}
+.panel .panel-content.no-bottom {
+    border-bottom: medium none;
+}
+.panel .panel-content {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+.corner-bottom, .tree .tree-category-content {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.pull-right {
+    float: right;
+}
+.btn-primary {
+    background-color: #0291D5;
+    background-image: linear-gradient(to bottom, #04ADE7, #0067BB);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.btn {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-image: none;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 0;
+    padding: 4px 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+input, button, select, textarea {
+    font-family: Arial,Helvetica,sans-serif;
+}
+label, input, button, select, textarea {
+    font-weight: normal;
+}
+.signin-wrapper .system-name {
+    color: #999999;
+    font-size: 12px;
+    margin-top: 5px;
+    text-align: left;
+    width: 250px;
+}
+.signin-wrapper .panel {
+    border: medium none;
+    box-shadow: 0 0 10px 0 #335599;
+    margin: 0 auto 100px;
+}
+.signin-wrapper .signin .controls {
+    margin-left: 0;
+    padding-left: 0;
+     height: 35px;
+}
+.signin-wrapper .signin .control-label {
+    text-align: left;
+    width: 100px;
+}
+.form-horizontal .control-label {
+    float: left;
+    padding-top: 5px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+label, input, button, select, textarea {
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 18px;
+}
+label, select, button, input[type="button"], input[type="reset"], input[type="submit"], input[type="radio"], input[type="checkbox"] {
+    cursor: pointer;
+}
+.alert-danger, .alert-error {
+    background-color: #F2DEDE;
+    border-color: #EED3D7;
+    color: #B94A48;
+}
+.alert, .alert-disabled {
+    border-radius: 4px;
+    margin-bottom: 18px;
+    padding: 8px 35px 8px 14px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}

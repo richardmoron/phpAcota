@@ -1,0 +1,4 @@
+
+RewriteEngine On
+RewriteRule ^/.html$ /php/modules/encuestas/www/php/encuesta.php?id=3 [L]
+RewriteRule ^encuesta/(.+)_([0-9]+)$ encuesta.php?id=$3

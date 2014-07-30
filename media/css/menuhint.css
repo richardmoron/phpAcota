@@ -1,0 +1,16 @@
+/* 
+    Document   : menuhint
+    Created on : 05-02-2013, 03:04:48 PM
+    Author     : z1174697
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.hintstyle {
+    position:absolute;
+    background:#FFFDCB;
+    border:1px solid #C77405;
+    padding:4px;
+    color: #C77405;
+    z-index: 1;
+}

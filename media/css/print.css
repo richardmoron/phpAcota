@@ -1,0 +1,28 @@
+/* 
+    Document   : print
+    Created on : 03-dic-2009, 20:17:37
+    Author     : Richard Moron
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+body {
+    color : #000000;
+    background : #ffffff;
+    font-family : Verdana;
+}
+img {
+    display: none;
+}
+a {
+    text-decoration : none;
+    color : #000000;
+}

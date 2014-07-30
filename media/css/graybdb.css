@@ -1,0 +1,237 @@
+/* 
+    Document   : graybdb
+    Created on : 18-05-2012, 05:51:31 PM
+    Author     : Richard Moron
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+html {
+    height: 100%;
+    width: 100%;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    background-image: url(../../media/img/home_background.png);
+}
+#header{
+    background-color: #444444;
+    height: 40px;
+    width: 100%;
+    color: #FFFFFF;
+    margin: 0px;
+    top: 0;
+    left: 0;
+}
+#header_title{
+    font-family: Verdana, Arial;
+    padding-top: 9px;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 25%;
+    float: left;
+    height: 70%;
+}
+#header_content{
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+#header_user{
+    float: right;
+    height: 100%;
+    width: 20%;
+    text-align: right;
+    font-style: italic;
+    font-size: 13px;
+    font-family: Verdana, Arial;
+    padding-right: 5px;
+}
+#header_buttons{
+    height: 30px;;
+    width: 100%;
+    padding-left:0;
+    background-color: #cccccc;
+    background-image: url(../img/menu-background.png);
+    border-bottom: #999999 1px solid;
+    position: fixed;
+    top: 0;
+}
+
+#header_buttons ul{
+    list-style-type:none;
+    margin:0px;
+    padding:0%;
+    height: 100%;
+    /*display:block;*/
+    width: 80%;
+    left: 0;
+    text-align: left;
+}
+#header_buttons ul li{
+    display:inline;
+    height:100%;
+    width:100%;
+    margin:0px;
+    padding:0px;
+    height: 100%;
+}
+#header_buttons ul li a{
+    display:inline-block;
+    width:100px;
+    height: 30px;
+    margin:0px;
+    padding: 3px 0px 3px 0px;
+    text-decoration: none;
+    color: #444444;
+    text-align: center;
+    font-family: Verdana, Arial;
+    margin-top:-23px;
+   /* border-left: #a0a0a0 1px solid;*/
+}
+#header_buttons ul li a img{
+    padding: 0px;
+    margin: 0px;
+    vertical-align: middle;
+}
+#header_buttons ul li a:hover{
+    background-color: #444444;
+    color: #FFFFFF;
+    height: 25px;
+}
+#footer  {
+    color: #FFFFFF;
+    font-size: 9px;
+    font-family: Verdana, Arial;
+    background-color: #444444;
+    text-align: left;
+    bottom: 0;
+    left: 0px;
+    width: 100%;
+    height: 19px;
+    vertical-align: bottom;
+    padding-top: 2px;
+    clear: both;
+    position: relative;
+}
+#content{
+    width: 100%;
+    height: auto;
+    min-height: 80%; /* IE7 */
+    padding-bottom: 15px;
+    margin-top: 45px;
+}
+#footer a{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0px 3px 0px 3px;
+}
+.title_panel {
+    height: auto;
+    min-height: 50px;
+    border: #DAE4E9 2px solid;
+    margin: 20px;
+    padding-bottom: 10px;
+    width: 95%;
+    background-color: #F3F3F3;
+}
+
+.panel_title_label{
+    height: 25px;
+    font-weight: bold;
+    /*text-shadow: 1px 1px #999999;*/
+    color: #7392A2;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    /*background-color: #A9BEE2;*/
+    background-image: url(../img/panel-title-background.png);
+    font-family: Verdana, Arial;
+}
+.panel_inputs{
+    width: 100%;
+}
+.inputs_tr{
+    width: 100%;
+    display: table;
+    margin: 0px;
+    margin-bottom: 0px;
+}
+.inputs_tr div{
+    display: table-cell;
+    width: 33%;
+}
+.inputs_td input{
+    width: 58%;
+}
+
+.inputs_lov{
+    background: white url(../img/actions/search.png) right no-repeat;
+}
+.labels{
+    padding: 2px 5px 5px 15px;
+    font-family: Verdana, Arial;
+    width: 100px;
+    display: inline-block;
+    text-align: right;
+}
+input{
+    border: #cccccc 1px solid;
+    height: 20px;
+}
+input:focus{
+    background-color: #ffffd7;
+}
+textarea:focus{
+    background-color: #ffffd7;
+}
+.tablebox {
+    height: auto;
+    margin: 20px;
+    width: 95%;
+}
+#loading {
+    background-image:url(../../media/img/loading-bg.png) ;
+    /*border: 2px solid black;*/
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    /*font-weight: normal;*/
+    color: #545454;
+    font-weight: 600;
+    font-size: 16px ;
+    text-align: center;
+    font-family: arial;
+    z-index: 50;
+}
+* html #loading{
+    width: 1024px;
+    height: 700px;
+}
+
+#loadingimg{
+   margin-top:20%;
+}
+#fields{
+    margin-top:-100px;
+}
+.validfield{
+    color: red;
+    font-family: Verdana;
+    font-size: 10pt;
+}

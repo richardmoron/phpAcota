@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <body>
+  <form>
+ 
+    <label>number</label><input name="form_number" id="form_number" type="number" min="1" max="10" ><br />
+    <label>date</label><input name="form_date" id="form_date" type="date">  <br />
+    <label>month</label><input name="form_month" id="form_month" type="month">  <br />
+    <label>week</label><input name="form_week" id="form_week" type="week">  <br />
+    <label>time</label><input name="form_time" id="form_time" type="time">  <br />
+    <label>url</label><input name="form_url" id="form_url" type="url" list="url_list">  <br />
+    <datalist id="url_list">  
+        <option value="http://www.google.com" label="Google">  
+        <option value="http://net.tutsplus.com" label="NetTuts+">  
+    </datalist>  
+    <input name="form_email" id="form_email" type="email" list="email_list" multiple>  
+    <datalist id="email_list">  
+       <option value="jane.doe@test.com" label="Jane Doe">  
+       <option value="john.doe@test.com" label="John Doe">  
+    </datalist>  
+    <input name="form_telephone" id="form_telephone" type="tel">  
+    <input name="form_color" id="form_color" type="color">  
+    <label>
+        Attachments: 
+        <input type="file" multiple name="att">
+    </label>
+    <input name="x" type="range" min="100" max="700" step="9.09090909" value="509.090909">
+ 
+  </form>
+      <a onclick="window.location.href='http://127.0.0.1/php/logout.php';return false;" onmouseover="" href="" id="menuid19">SALIR</a>
+  </body>
+</html>

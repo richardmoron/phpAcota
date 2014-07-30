@@ -1,0 +1,181 @@
+/* 
+    Document   : default
+    Created on : 18/06/2009, 09:56:16 PM
+    Author     : RichardO
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+body{
+    padding: 0px;
+}
+root { 
+    /*display: block;*/
+}
+
+.toolbar{
+    margin:0px;
+    background-color: #F5F5F5;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.toolbar img{
+    border:none;
+    margin:1px;
+}
+.labels{
+    width: 150px;
+	float: left;
+	text-align:right;
+	margin-top:2px;
+    margin-right:10px;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+.inputs{
+    margin-top:2px;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+.inputs input:focus { 
+	border-color: blue;
+	border-style: solid;
+}
+
+.fields{
+    display:table-row;
+    height:200px;
+    width:400px;
+    /*float:right;*/
+    margin-right:20px;
+    margin-top:-100px;
+    position: absolute;
+    left: 3px; 
+}
+#tablebox{
+    float:left;
+    margin-right:5px;
+    margin-left:10px;
+    width:90%;
+}
+#formulario{
+    width:100%;
+    height:550px;
+    background-color: #F5F5F5;
+    border-bottom: thin solid #696969 ;
+    border-right: thin solid #696969 ;
+    border-left: thin solid #696969 ;
+    margin-top: -5px;
+}
+#loading {
+    background-image:url(../img/actions/loadindbg.png) ;
+    /*border: 2px solid black;*/
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    /*font-weight: normal;*/
+    color: #545454;
+    font-weight: 600;
+    font-size: 16px ;
+    text-align: center;
+    font-family: arial;
+    z-index: 50;
+}
+* html #loading{
+    width: 1024px;
+    height: 700px;
+}
+
+#loadingimg{
+   margin-top:25%;
+}
+#addbutton, #savebutton, #cancelbutton{
+    /*position:fixed;*/
+}
+#searchfields{
+    margin-left:15px;
+    border-color:#369;
+    border-width:1px;
+    border-style:solid;
+    padding:10px;
+    width:88%;
+}
+#searchfields legend {
+    padding: 0.2em 0.5em;
+    border:1px solid #369;
+    font-size:80%;
+    font-weight:bold;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    text-align:right;
+    margin-bottom:15px;
+}
+
+.searchfields{
+    margin-left:15px;
+    border-color:#369;
+    border-width:1px;
+    border-style:solid;
+    padding:10px;
+    width:88%;
+}
+.searchfields legend {
+    padding: 0.2em 0.5em;
+    border:1px solid #369;
+    font-size:80%;
+    font-weight:bold;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    text-align:right;
+    margin-bottom:15px;
+}
+
+#comitebox{
+    width:100%;
+    padding:5px;
+}
+
+img {
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/actions/transparent.png', sizingMethod='crop');
+    background: none;
+
+}
+
+.formtitle{
+    font-size:20px;
+    font-weight: normal;
+    font-family: Verdana;
+    margin: 0px;
+    /*background-color: #4682B4;*/
+    background-color: 		#4682B4;
+    color: #FFFFFF;
+    height: 40px;
+    padding: 15px 5px 5px 15px;
+    vertical-align: middle;
+    /*width: 100%;*/
+}
+a:visited{
+    color:blue;
+}
+#titulo_padre{
+    margin-left:15px;
+    font-weight:bold;
+}
+
+.formuser{
+    float: right;
+    font-size:13px;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    margin: 5px;
+}
+.logoreport{
+    display: none;
+}

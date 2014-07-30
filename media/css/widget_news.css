@@ -1,0 +1,65 @@
+/* 
+    Document   : widget
+    Created on : 22-03-2013, 05:08:49 PM
+    Author     : z1174697
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+.wn_dv{
+    background-image: url(../img/panel-title-background.png);
+    font-family: Verdana, Arial;
+    font-size: 10pt;
+    width: 300px;
+    height: 25px;
+    color: #7392A2;
+    border: 2px solid #DAE4E9;
+    vertical-align: middle;
+    padding-left: 10px;
+    font-weight: bold;
+    margin-left: 0px;
+    border-bottom: none;
+    padding-top: 5px;
+    margin-top: 15px;
+}
+.wn_ul{
+    list-style: none;
+    width: 300px;
+    padding-left: 10px;
+    padding-top:  15px;
+    font-family: Verdana, Arial;
+    font-size: 10pt;
+    border: 2px solid #DAE4E9;
+    border-top: none;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    background-color: #FFFFFF;
+}
+.wn_li{
+    width: 95%;
+    border-top: 2px solid #DAE4E9;
+    padding: 3px;
+    font-family: Verdana, Arial;
+    font-size: 10pt;
+    padding: 0;
+    height: 20px;
+}
+.wn_li a{
+    text-decoration: none;
+    color: #000000;
+    width: 285px;
+    height: 20px;
+}
+.wn_li a:visited{
+    text-decoration: none;
+    color: #000000;
+}
+.wn_li a:hover{
+    background-color: #DAE4E9;
+    color: #7392A2;
+    /*width: 285px;*/
+    display: block;
+}

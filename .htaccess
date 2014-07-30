@@ -1,0 +1,14 @@
+Options +FollowSymlinks
+RewriteEngine On
+
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+#RewriteCond %{REQUEST_URI} ^/intranet($|/)
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteRule ^encuesta/login/([0-9]+)/?$ brain/intranet/modules/encuestas/www/php/ec_login.php?ei=$1 [QSA]
+RewriteRule ^encuesta/e/([0-9]+)/?$ brain/intranet/modules/encuestas/www/php/encuesta.php?id=$1 [QSA]
+RewriteRule ^encuesta/acuerdo/([0-9]+)/?$ brain/intranet/modules/encuestas/www/php/acuerdo.php?id=$1 [QSA]
+RewriteRule ^encuesta/realizado/?$ brain/intranet/modules/encuestas/www/php/realizado.php [L]
+RewriteRule ^encuesta/no-existe/?$ brain/intranet/modules/encuestas/www/php/noexiste.php [L]
+RewriteRule ^encuesta/gracias/?$ brain/intranet/modules/encuestas/www/php/gracias.php [L]

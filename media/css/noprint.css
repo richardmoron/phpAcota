@@ -1,0 +1,30 @@
+/* 
+    Document   : noprint
+    Created on : 01-07-2011, 05:38:02 PM
+    Author     : Richard Moron
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+body {
+    color : #ffffff;
+    font-size: 0px;
+}
+div{
+    color : #ffffff;
+}
+span{
+    color : #ffffff;
+}
+img {
+    display: none;
+}
+input{
+    visibility: hidden;
+    border: none;
+}
